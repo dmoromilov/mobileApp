@@ -10,7 +10,7 @@ import GoogleMaps  // Add this import
     didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?
   ) -> Bool {
     FirebaseApp.configure() // Dodaj inicijalizaciju Firebase-a
-    GMSServices.provideAPIKey("AIzaSyDx-r05co8q23CUVgZihsKNHOZrkGPlorc")               // Add this line
+    GMSServices.provideAPIKey("API_KEY")               // Add this line
     GeneratedPluginRegistrant.register(with: self)
     return super.application(application, didFinishLaunchingWithOptions: launchOptions)
   }
